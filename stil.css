@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: black;
+	font-family: Century;
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: #D8BFD8;
+	padding: 20px;
+}
+
+.novi_blok{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	margin: 20px;
+	width: 50%;
+}
+
+	h1 {
+	font-family: LauraZrilic;
+	color: black;
+	font-size: 60px;
+}
+	h2 {
+	font-family:Century;
+	font-size: 40px;
+	color: black;
+}
+	h3{
+	font-family:Century;
+	font-size: 20px;
+	color: black;
+}
+
+body.pozadina{
+	background-image: url("slike/pozadina.jpg")
+}
+body.drugapozadina{
+	 background-color: darkgray;
+ }
+a:link {
+	color:black;
+	background-color: white;
+	padding: 5px;
+	line-height: 40px;
+	border: 1px solid #000000; 
+}
+a:hover{
+	background-color: darkgray;
+}
+img{
+	height: 200px;
+}
+.slike{
+
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+
+column-gap: 5px;
+
+}
+
+img{
+	height: auto;
+    width: 450px;
+}
