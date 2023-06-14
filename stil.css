@@ -12,11 +12,15 @@ p {
 
 @font-face {
     font-family: 'laurazrilicregular';
-    src: url('laurazrilic_novo-webfont.woff2') format('woff2'),
-         url('laurazrilic_novo-webfont.woff') format('woff');
+    src: url('laurazrilicregular.otf');
+    src:
+         url('laurazrilic_novo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('laurazrilic_novo-webfont.woff2') format('woff2'),
+         url('laurazrilic_novo-webfont.woff') format('woff'),
+         url('laurazrilic_novo-webfont.ttf') format('truetype'),  
+         url('laurazrilic_novo-webfont.svg#laurazrilicregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .novi_blok{
