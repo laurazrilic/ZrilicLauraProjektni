@@ -11,9 +11,9 @@ p {
 }
 
 @font-face {
-    font-family: 'summerregular';
-    src: url('summer.woff2') format('woff2'),
-         url('summer.woff') format('woff');
+    font-family: 'laurazrilicregular';
+    src: url('laurazrilic_novo-webfont.woff2') format('woff2'),
+         url('laurazrilic_novo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
